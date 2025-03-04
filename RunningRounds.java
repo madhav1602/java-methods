@@ -13,7 +13,7 @@ class RunningRoundsCalculator {
         double rounds = calculateRounds(side1, side2, side3);
 
         // Print the result
-        System.out.println("The athlete needs to complete " + rounds + " rounds to finish a 5 km run.");
+        System.out.println("The athlete needs to complete " + Math.ceil(rounds) + " rounds to finish a 5 km run.");
 
         
     }
